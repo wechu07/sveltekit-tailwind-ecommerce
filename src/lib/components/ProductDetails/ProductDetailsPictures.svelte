@@ -49,6 +49,7 @@
 			id="expandedImg"
 		/>
 
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
 			class="absolute top-0 bottom-0 items-center justify-center left-0 ml-8 cursor-pointer hover:scale-125 xl:hidden {showArrowIcons
 				? 'flex'
@@ -69,6 +70,7 @@
 			</span>
 		</div>
 
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
 			class="absolute top-0 bottom-0 items-center justify-center right-0 mr-8 cursor-pointer hover:scale-125 xl:hidden {showArrowIcons
 				? 'flex'

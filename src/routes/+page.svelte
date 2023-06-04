@@ -9,7 +9,7 @@
 
 <div class="text-center">
 	<div class="p-12 text-4xl w-screen text-white font-snack tracking-wider bg-black">
-		Quality Stainless Steel made in Berlin
+		Rafiki shoes
 	</div>
 	<div class="pt-8">
 		<div class="text-2xl">{$t('home.bestseller_title')}</div>

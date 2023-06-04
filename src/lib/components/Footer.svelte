@@ -1,5 +1,7 @@
 <script>
 	import { t } from '$lib/i18n/i18n.js';
+
+	const currentYear = new Date().getFullYear();
 </script>
 
 <!-- Footer -->
@@ -12,7 +14,7 @@
 			class="flex flex-col items-center justify-between space-y-4 pb-6 px-8 md:space-y-6 md:flex-col md:items-start"
 		>
 			<!-- Logo -->
-			<div class="text-3xl text-white">Blechbär</div>
+			<div class="text-3xl text-white">Rafiki</div>
 			<!-- Social Links Container -->
 			<div class="flex justify-center space-x-4">
 				<a href="#">
@@ -36,9 +38,9 @@
 				<a href="#" class="hover:text-lightGray">{$t('footer.data_privacy')}</a>
 			</div>
 			<div class="flex flex-col space-y-3 text-white">
-				<a href="#" class="hover:text-lightGray">{$t('footer.cancellation_policy')}</a>
-				<a href="#" class="hover:text-lightGray">{$t('footer.shipping')}</a>
-				<a href="#" class="hover:text-lightGray">{$t('footer.about')}</a>
+				<a href="" class="hover:text-lightGray">{$t('footer.cancellation_policy')}</a>
+				<a href="" class="hover:text-lightGray">{$t('footer.shipping')}</a>
+				<a href="" class="hover:text-lightGray">{$t('footer.about')}</a>
 			</div>
 		</div>
 		<div class="inline-flex items-center px-2 md:px-0 md:block">
@@ -51,6 +53,6 @@
 		</div>
 	</div>
 	<div class="flex text-xs flex-col justify-between text-center">
-		<div class="text-white block">Copyright &copy; 2022, All Rights Reserved</div>
+		<div class="text-white block">Copyright &copy; {currentYear}, All Rights Reserved</div>
 	</div>
 </footer>
